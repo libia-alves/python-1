@@ -1,0 +1,7 @@
+def soma_lista(lista):
+    if len(lista) == 1:
+        return lista[0]
+    else:
+        return lista [0] + soma_lista(lista[1:])
+lista = [20,30,40,50,60,70,90,100,1111,9999]
+print(soma_lista(lista))
